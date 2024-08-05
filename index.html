@@ -1,0 +1,175 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes spin-clockwise {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    .spin-clockwise:hover {
+        animation: spin-clockwise 0.5s linear;
+    }
+</style>
+
+
+    <title>My portfolio</title>
+</head>
+<body>
+    <!-- hero section -->
+    <section class="bg-cover bg-center h-screen " style="background-image: url(./bg1.png);">
+        <div class="flex items-center justify-center h-full bg-gray-900 bg-opacity-50">
+            <div class="text-center text-white p-8">
+                <h1 class="text-5xl md:text-6xl font-bold mb-4">Hi, I am Kushal Dalal</h1>
+                <p class="text-2xl md:text-3xl b-8">Full stack Engineer</p>
+                <a href="#contact" class="bg-blue-500 text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-blue-700 trasition duration-300 mt-4 inline-block">Get In Touch</a>
+            </div>
+        </div>
+        
+    </section>
+    <!-- About me section along with resume page -->
+     <section id="about" class="py-20 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <div class="flex justify-center mb-8">
+                <img src="./DSC_0491.JPG" alt="kushal profile photo" class="rounded-full w-40 h-40 object-cover shadow-lg transform transition-transform duration-300 hover:scale-110 hover:shadow-2xl">
+            </div>
+            <h2 class="text-4xl font-bold mb-8">Kushal</h2>
+            <div class="text-justify mx-auto max-w-2xl">
+                <p class="text-lg mb-4">I am a full-stack engineer with a passion for creating innovative and efficient solutions. With expertise in AI, ML, and web development, I strive to deliver high-quality projects.</p>
+                <p class="text-lg">Let's work together to bring your ideas to life!</p>
+            </div>
+
+        </div>
+     </section>
+     
+     <!-- Skills section -->
+    <!-- Skills Section -->
+<section id="skills" class="py-20 bg-white">
+    <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-8">Skills</h2>
+        <div class="flex flex-wrap justify-center">
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <img src="https://via.placeholder.com/50" alt="HTML Icon" class="mx-auto mb-4">
+                    <h3 class="text-xl font-bold">HTML</h3>
+                </div>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <img src="https://via.placeholder.com/50" alt="CSS Icon" class="mx-auto mb-4">
+                    <h3 class="text-xl font-bold">CSS</h3>
+                </div>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <img src="https://via.placeholder.com/50" alt="JavaScript Icon" class="mx-auto mb-4">
+                    <h3 class="text-xl font-bold">JavaScript</h3>
+                </div>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <img src="https://via.placeholder.com/50" alt="React Icon" class="mx-auto mb-4">
+                    <h3 class="text-xl font-bold">React</h3>
+                </div>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <img src="https://via.placeholder.com/50" alt="Node.js Icon" class="mx-auto mb-4">
+                    <h3 class="text-xl font-bold">Node.js</h3>
+                </div>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <img src="https://via.placeholder.com/50" alt="Python Icon" class="mx-auto mb-4">
+                    <h3 class="text-xl font-bold">Python</h3>
+                </div>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <img src="https://via.placeholder.com/50" alt="AI/ML Icon" class="mx-auto mb-4">
+                    <h3 class="text-xl font-bold">AI/ML</h3>
+                </div>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
+                    <img src="https://via.placeholder.com/50" alt="Cloud Computing Icon" class="mx-auto mb-4">
+                    <h3 class="text-xl font-bold">Cloud Computing</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+     
+<!-- contact section -->
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-gray-100">
+    <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-bold mb-8">Contact Me</h2>
+        <p class="text-lg mb-8">Feel free to reach out to discuss your project ideas or collaboration opportunities.</p>
+        <div class="flex flex-wrap justify-center">
+            <div class="w-full md:w-1/2 p-4">
+                <form action="#" method="POST" class="bg-white p-8 rounded-lg shadow-lg">
+                    <div class="mb-4">
+                        <label for="name" class="block text-lg font-medium mb-2">Name</label>
+                        <input type="text" id="name" name="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-lg font-medium mb-2">Email</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-lg font-medium mb-2">Message</label>
+                        <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+                    </div>
+                    <button type="submit" class="bg-blue-500 text-white px-6 py-3 rounded-full text-lg font-medium hover:bg-blue-700 transition duration-300">Send Message</button>
+                </form>
+            </div>
+            <div class="w-full md:w-1/2 p-4">
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold mb-4">Contact Details</h3>
+                    <p class="text-lg mb-2"><strong>Email:</strong> kushal.dalal@example.com</p>
+                    <p class="text-lg mb-2"><strong>Phone:</strong> +91-1234567890</p>
+                    <p class="text-lg mb-2"><strong>Address:</strong> 123 Your Street, Your City, Your State, Your Country</p>
+                    <div class="mt-4">
+                        <a href="https://www.linkedin.com/in/kushal-dalal" class="text-blue-500 hover:text-blue-700 transition duration-300">LinkedIn</a>
+                    </div>
+                    <div class="mt-4">
+                        <a href="https://github.com/kushal-dalal" class="text-blue-500 hover:text-blue-700 transition duration-300">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto text-center">
+        <p class="mb-4">&copy; 2024 Kushal Dalal. All rights reserved.</p>
+        <div class="flex justify-center space-x-6 mb-4">
+            <a href="https://www.linkedin.com/in/kushal-dalal" class="text-gray-300 hover:text-white transition duration-300 spin-clockwise">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.447 20.452h-3.554v-5.572c0-1.328-.024-3.037-1.854-3.037-1.854 0-2.14 1.446-2.14 2.942v5.667H9.344V9h3.414v1.561h.05c.476-.899 1.636-1.847 3.37-1.847 3.6 0 4.265 2.369 4.265 5.455v6.283zM5.337 7.433c-1.144 0-2.067-.928-2.067-2.071 0-1.142.923-2.071 2.067-2.071s2.066.93 2.066 2.071c0 1.143-.922 2.071-2.066 2.071zm1.785 13.019H3.552V9h3.57v11.452zM22.225 0H1.771C.791 0 .009.772.009 1.724v20.558c0 .952.782 1.718 1.762 1.718h20.451c.98 0 1.772-.766 1.772-1.718V1.724C23.997.772 23.206 0 22.225 0z"/>
+                </svg>
+            </a>
+            <a href="https://github.com/kushal-dalal" class="text-gray-300 hover:text-white transition duration-300 spin-clockwise">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.302 3.438 9.8 8.205 11.387.6.113.82-.258.82-.577v-2.234c-3.338.726-4.042-1.416-4.042-1.416-.546-1.387-1.332-1.756-1.332-1.756-1.089-.745.083-.729.083-.729 1.205.085 1.837 1.241 1.837 1.241 1.07 1.834 2.809 1.305 3.495.997.108-.775.418-1.305.76-1.604-2.665-.303-5.466-1.332-5.466-5.931 0-1.31.467-2.381 1.235-3.221-.123-.303-.536-1.523.117-3.176 0 0 1.008-.322 3.3 1.23.957-.266 1.982-.399 3.005-.404 1.021.005 2.048.138 3.006.404 2.29-1.552 3.297-1.23 3.297-1.23.655 1.653.243 2.873.12 3.176.77.84 1.233 1.911 1.233 3.221 0 4.61-2.804 5.624-5.476 5.921.429.369.813 1.096.813 2.21v3.293c0 .322.216.694.825.577C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                </svg>
+            </a>
+            <a href="https://twitter.com/kushal_dalal" class="text-gray-300 hover:text-white transition duration-300 spin-clockwise">
+                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.954 4.569c-.885.392-1.83.656-2.825.775a4.953 4.953 0 002.163-2.725 9.864 9.864 0 01-3.127 1.195 4.935 4.935 0 00-8.392 4.5 14.006 14.006 0 01-10.174-5.157 4.822 4.822 0 001.527 6.573c-.806-.026-1.564-.247-2.228-.616v.062a4.936 4.936 0 003.946 4.83c-.738.2-1.514.25-2.283.088a4.93 4.93 0 004.604 3.417 9.869 9.869 0 01-6.106 2.105c-.39 0-.779-.023-1.169-.067a13.945 13.945 0 007.548 2.209c9.142 0 14.307-7.721 14.307-14.426 0-.22-.005-.439-.015-.658a10.286 10.286 0 002.548-2.599l-.047-.02z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+
+  
+</body>
+</html>
